@@ -5,23 +5,36 @@
 
 .cabecalho{
     text-align: center;
-    background-color: #b4b4b4;
+    background-color: #4682B4;
     font-size: 40px;
-    ;
 }
 
-#menu li{
+.sub-titulos h2{
+    text-align: center;
+    background-color: #87CEFA;
+    margin-bottom: 2px;
+}
+.sub-titulos p{
+    background-color: #87CEEB;
+    font-size: 20px;
+    margin-top: 0%;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.menu li{
     font-size: 16px;
     display: inline;
     padding: 20px;
 }
 
-#menu li a{
+.menu li a{
     text-decoration: none;
     color: black;
 }
 /*Hover: Quando o mause esTiver em cima do meu link a cor será cinza*/
-#menu li a:hover{
+.menu li a:hover{
     color: darkgray;
 }
 
@@ -35,7 +48,7 @@
 
 .conteiner{
     display: flex;
-    flex-flow: row;
+    flex-flow:row
     justify-content: center;
     align-items: center;
 }
@@ -46,13 +59,13 @@
     justify-content: space-around;
 }
 
-.conteinerAssunto ul{
-    background-color: lightgray;
-
+.conteinerAssunto ul li{
+    text-decoration: none;
 }
 
 .p-30{
     padding: 30px;
+    text-align: justify;
 }
 
 .br-50{
@@ -72,7 +85,9 @@ body {
 }
 
 
-
-
-
 /*Estilzação para minha página Contato*/
+
+.conteinerCont{
+    display: flex;
+    flex-flow: row wrap;
+}
